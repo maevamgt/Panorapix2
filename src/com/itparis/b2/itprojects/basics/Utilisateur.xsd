@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/FenetreInscription" xmlns:tns="http://www.example.org/FenetreInscription" elementFormDefault="qualified">
+</schema>
+
+
+    <xs:element name="utilisateur" type="utilisateurType">
+      <xs:complexType name="utilisateurType">
+        <xs:sequence>
+          <xs:element name="idUser" type="xsd:decimal" use="required" />
+          <xs:element name="nameUser" type="xsd:string" use="required"/>
+          <xs:element name="firstNameUser" type="xsd:string" use="required" />
+          <xs:element name="loginUser" type="xsd:string" use="required" />
+          <xs:element name="birthDate" type="xsd:date" />
+          <xs:element name="addressMail" type="xsd:mail" use="required" />
+          <xs:element name="password" type="xsd:decimal" use="required" />
+          <!-- si on veut créer une gestion par groupe -->
+          <!-- <xs:element name="idGroup" type="xsd:decimal" /> -->
+          <xs:element name="photoUser" type="xs:string" use="required" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>

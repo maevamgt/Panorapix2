@@ -16,7 +16,7 @@ import java.awt.Color;
 
 import javax.swing.JTextArea;
 
-import com.itparis.b2.itprojects.basics.User;
+import com.itparis.b2.itprojects.basics.Utilisateur;
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 
 import javax.swing.JFormattedTextField;

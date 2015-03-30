@@ -17,7 +17,7 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JScrollPane;
 import javax.swing.border.LineBorder;
 
-public class FenetreImport2 extends JFrame {
+public class FenetreImport extends JFrame {
 
 	private JPanel contentPane;
 
@@ -28,7 +28,7 @@ public class FenetreImport2 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					FenetreImport2 frame = new FenetreImport2();
+					FenetreImport frame = new FenetreImport();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -40,7 +40,7 @@ public class FenetreImport2 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public FenetreImport2() {
+	public FenetreImport() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(373, 199, 1000, 770);
 		contentPane = new JPanel();
